@@ -1,0 +1,28 @@
+.field {
+  border: 1px solid #929292;
+  padding: 11px 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #929292;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+  }
+}
+
+.field.profile {
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #9d9d9d;
+  padding: 4px 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}

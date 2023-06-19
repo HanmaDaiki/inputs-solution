@@ -1,0 +1,49 @@
+.test-form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 25px;
+}
+
+.eye {
+  border: none;
+  background-color: transparent;
+  background-image: url(../../images/eye-icon-close.svg);
+  width: 24px;
+  height: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &.active {
+    background-image: url(../../images/eye-icon.svg);
+  }
+    
+  &:hover {
+    opacity: .7;
+  }
+}
+
+.remember {
+  border: none;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  
+  &:hover {
+    opacity: .7;
+  }
+}
+
+.clear {
+  background-image: url(../../images/clear-icon.svg);
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 18px;
+  height: 18px;
+  border: none;
+}
